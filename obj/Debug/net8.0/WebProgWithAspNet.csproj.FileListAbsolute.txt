@@ -100,3 +100,4 @@ C:\Users\EMRE KOCA\Desktop\webprogwithaspnet\WebProgWithAspNet\obj\Debug\net8.0\
 C:\Users\EMRE KOCA\Desktop\webprogwithaspnet\WebProgWithAspNet\obj\Debug\net8.0\WebProgWithAspNet.pdb
 C:\Users\EMRE KOCA\Desktop\webprogwithaspnet\WebProgWithAspNet\obj\Debug\net8.0\WebProgWithAspNet.genruntimeconfig.cache
 C:\Users\EMRE KOCA\Desktop\webprogwithaspnet\WebProgWithAspNet\obj\Debug\net8.0\ref\WebProgWithAspNet.dll
+C:\Users\EMRE KOCA\Desktop\webprogwithaspnet\WebProgWithAspNet\obj\Debug\net8.0\WebProgWithAspNet.sourcelink.json

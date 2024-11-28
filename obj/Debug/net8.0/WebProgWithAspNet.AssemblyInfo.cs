@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebProgWithAspNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d4dc1076f7f1039a8d8f64312061b3ca0a9578")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebProgWithAspNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebProgWithAspNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

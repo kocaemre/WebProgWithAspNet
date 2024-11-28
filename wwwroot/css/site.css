@@ -20,3 +20,178 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Genel vücut stili */
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Konteyner düzeni */
+.container {
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Form etiketleri */
+.form-label {
+    font-weight: bold;
+}
+
+/* Giriþ alanlarý */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+/* Buton stili */
+.btn-outline-primary {
+    border-radius: 10px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+/* Baþlýk stili */
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+/* Satýr aralýklarý */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Geçersiz giriþ mesajý stili */
+.invalid-feedback {
+    font-size: 0.9em;
+    color: #e74a3b;
+}
+
+/* Odaklanýlan giriþ alaný */
+.form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+/* Baþarý mesajý stili */
+.success-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d4edda;
+    /* Baþarý için açýk yeþil */
+    color: #155724;
+    /* Baþarý rengi (koyu yeþil) */
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 300px;
+}
+
+    /* Baþarý mesajýndaki ikon */
+    .success-message .checkmark {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        background-color: #28a745;
+        /* Onay yeþili */
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        line-height: 30px;
+        animation: checkmarkAnim 1s ease-out;
+    }
+
+/* Tik iþareti animasyonu */
+@keyframes checkmarkAnim {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Hata mesajý stili */
+.error-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 300px;
+}
+
+    /* Hata mesajýndaki ikon */
+    .error-message .error-icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        background-color: #721c24;
+        color: white;
+        border-radius: 50%;
+        /* Daire þekli */
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        animation: errorAnim 1s ease-out;
+    }
+
+/* Hata animasyonu */
+@keyframes errorAnim {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.13));
+    box-shadow: 0px 4px 25px rgb(141 139 138 / 55%);
+    border: 1px solid white;
+    border-radius: 20px;
+    min-width: 200px;
+    height: 264px;
+}
